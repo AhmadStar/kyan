@@ -1,0 +1,40 @@
+.ps-product--cart .ps-product__content {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.ps-shopping-cart .btn-cart-button-action:last-child {
+    float: left;
+}
+
+.ps-form--widget-search button {
+    left: 10px;
+    right: unset;
+}
+
+.product__attribute>label {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.ps-product--header-sticky .ps-product__wrapper {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.widget_features p {
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.widget_features p i {
+    right: 0;
+    margin-left: 10px;
+    left: 0;
+    margin-right: 0px;
+}
+
+.ml-1, .mx-1 {
+    margin-right: 0.25rem!important;
+    margin-left: 0rem!important;
+}

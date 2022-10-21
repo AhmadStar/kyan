@@ -91,10 +91,12 @@ return [
                 ->add('jquery-bar-rating-css', 'plugins/jquery-bar-rating/themes/fontawesome-stars.css');
             $theme->asset()->usePath()->add('select2-css', 'plugins/select2/css/select2.min.css');
             $theme->asset()->usePath()->add('fontawesome', 'plugins/font-awesome/css/font-awesome.min.css');
+            $theme->asset()->usePath()->add('custom', 'css/custom.css', [], [], $version);
             $theme->asset()->usePath()->add('style', 'css/style.css', [], [], $version);
 
             if (BaseHelper::siteLanguageDirection() == 'rtl') {
                 $theme->asset()->usePath()->add('rtl', 'css/rtl.css', [], [], $version);
+                $theme->asset()->usePath()->add('custome-ar', 'css/custom-ar.css', [], [], $version);
             }
 
             $theme->asset()->container('footer')->usePath()->add('jquery', 'plugins/jquery-3.5.1.min.js');

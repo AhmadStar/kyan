@@ -8,14 +8,13 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <!-- Fonts-->
-        <link href="https://fonts.googleapis.com/css?family={{ urlencode(theme_option('primary_font', 'Work Sans')) }}:300,400,500,600,700&amp;amp;subset=latin-ext" rel="stylesheet" type="text/css">
+        {{-- <link href="https://fonts.googleapis.com/css?family={{ urlencode(theme_option('primary_font', 'Work Sans')) }}:300,400,500,600,700&amp;amp;subset=latin-ext" rel="stylesheet" type="text/css"> --}}
         <!-- CSS Library-->
 
         <style>
             :root {
                 --color-1st: {{ theme_option('primary_color', '#fcb800') }};
                 --color-2nd: {{ theme_option('secondary_color', '#222222') }};
-                --primary-font: '{{ theme_option('primary_font', 'Work Sans') }}', sans-serif;
                 --button-text-color: {{ theme_option('button_text_color', '#000') }};
                 --header-text-color: {{ theme_option('header_text_color', '#000') }};
                 --header-button-background-color: {{ theme_option('header_button_background_color', '#000') }};

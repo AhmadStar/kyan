@@ -3,7 +3,7 @@
         <div class="ps-container">
             @php $ads = get_ads_keys_from_shortcode($shortcode); @endphp
             @if (is_plugin_active('ads') && (AdsManager::locationHasAds('top-slider-image-1') || AdsManager::locationHasAds('top-slider-image-2') || count($ads)))
-                <div class="ps-section__left">
+                <div class="">
                     <div class="ps-carousel--nav-inside owl-slider" data-owl-auto="true" data-owl-loop="true"
                         data-owl-speed="5000" data-owl-gap="0" data-owl-nav="true"
                         data-owl-dots="true" data-owl-item="1" data-owl-item-xs="1"
